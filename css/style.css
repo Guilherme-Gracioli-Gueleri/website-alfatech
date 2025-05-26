@@ -1,0 +1,326 @@
+/* Estilos Globais */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.limitar-secao {
+    width: 90%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+/* Header - Cabeçalho da página */
+
+.container-cabecalho {
+    position: relative;
+    padding: 2.25rem 0;
+}
+
+.cabecalho-logo {
+    position: relative;
+}
+
+.cabecalho-logo img {
+    width: 5rem;
+}
+
+.cabecalho-logo div {
+    position: absolute;
+    top: 0rem;
+    left: 6rem;
+}
+
+.cabecalho-links {
+    position: absolute;
+    top: 4rem;
+    right: 0rem;
+}
+
+.cabecalho-links a {
+    font-size: 1.125rem;
+    padding: 0rem 0.625rem;
+    text-decoration: none;
+    font-weight: 600;
+    color: #233032;
+}
+
+/* Main - Seção Banner da página */
+
+.secao-banner {
+    background-color: #2f86d6;
+}
+
+.container-banner {
+    position: relative;
+    padding: 11.25rem 0rem;
+}
+
+.container-banner div {
+    color: #fff;
+    width: 29rem;
+}
+
+.container-banner div p {
+    font-size: 1rem;
+    line-height: 1.625rem;
+    word-spacing: 3px;
+}
+
+.container-banner div h2 {
+    font-size: 1.75rem;
+    line-height: 2.5rem;
+    margin: 1.25rem 0rem;
+}
+
+.container-banner img {
+    width: 50%;
+    position: absolute;
+    top: 6.25rem;
+    right: 0rem;
+}
+
+/* Main - Seção Primeiro Anúncio */
+
+.secao-primeiro-anuncio {
+    background-color: #23303e;
+    color: #fff;
+}
+
+.container-primeiro-anuncio {
+    position: relative;
+    padding: 2.5rem 0rem;
+}
+
+.container-primeiro-anuncio div {
+    width: 37.5rem;
+}
+
+.container-primeiro-anuncio div h2 {
+    margin-bottom: 5px;
+}
+
+.container-primeiro-anuncio a {
+    position: absolute;
+    top: 2.5rem;
+    right: 0rem;
+    font-size: 1.125rem;
+    font-weight: 700;
+    padding: 1.25rem;
+    border-radius: 4px;
+    text-decoration: none;
+    text-align: center;
+    background-color: #2f86d6;
+    color: #fff;
+    cursor: pointer;
+}
+
+.container-primeiro-anuncio a img {
+    position: absolute;
+    top: 1.5rem;
+    left: 0rem;
+    width: 1.25rem;
+    margin-left: 1.25rem;
+}
+
+.container-primeiro-anuncio a span {
+    margin-left: 30px;
+}
+
+/* Main - Seção Informações */
+
+.secao-informacoes {
+    padding: 6.25rem 0rem;
+    text-align: center;
+}
+
+.secao-informacoes h2 {
+    width: 56.25rem;
+    font-size: 2rem;
+    margin: 0rem auto 3.75rem;
+}
+
+.secao-informacoes h2 span {
+    color: #2f86d6;
+}
+
+.container-informacoes {
+    position: relative;
+    height: 15rem;
+}
+
+.container-informacoes div {
+    width: 33%;
+    position: absolute;
+    top: 0rem;
+}
+
+.card-2 {
+    left: 21.5rem;
+}
+
+.card-3 {
+    right: 0rem;
+}
+
+.container-informacoes div img {
+    width: 6.25rem;
+}
+
+.container-informacoes div h3 {
+    margin: 1.25rem;
+}
+
+/* Main - Seção Planos */
+
+.secao-planos {
+    padding: 6.25rem 0rem;
+    background-color: #f1f3f7;
+}
+
+.secao-planos h2 {
+    text-align: center;
+    margin-bottom: 4rem;
+    font-size: 2rem;
+}
+
+.secao-planos h2 span {
+    color: #2f86d6;
+}
+
+table {
+    border-radius: 0.25rem;
+    margin: auto;
+    box-shadow: 0px 2px 40px 15px rgba(47,134,214,1);
+}
+
+table thead th {
+    text-align: center;
+    padding: 1.25rem 0rem;
+    background-color: #fff;
+}
+
+table thead th h3 {
+    margin-bottom: 1.25rem;
+}
+
+table thead th img {
+    width: 6.25rem;
+    margin: auto;
+}
+
+table thead th p {
+    max-width: 10rem;
+    margin: auto;
+    padding-top: 0.625rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #a89f9f;
+}
+
+table tbody td {
+    width: 15.625rem;
+    max-width: 64rem;
+    text-align: center;
+    font-weight: 500;
+    padding: 0.9rem;
+}
+
+.linha-impar {
+    background-color: #f6f6f6;
+}
+
+.linha-par {
+    background-color: #fff;
+}
+
+/* Main - Seção Segundo Anúncio */
+
+.secao-segundo-anuncio {
+    background-color: #2f86d6;
+}
+
+.container-segundo-anuncio {
+    position: relative;
+    padding: 2.5rem 0rem;
+}
+
+.container-segundo-anuncio h2 {
+    color: #fff;
+    width: 34rem;
+}
+
+.container-segundo-anuncio a {
+    position: absolute;
+    top: 2.5rem;
+    right: 0rem;
+    font-size: 1.125rem;
+    font-weight: 700;
+    padding: 1.25rem;
+    border-radius: 4px;
+    text-decoration: none;
+    text-align: center;
+    background-color: #233032;
+    color: #fff;
+    cursor: pointer;
+}
+
+.container-segundo-anuncio a img {
+    position: absolute;
+    top: 1.5rem;
+    left: 0;
+    width: 1.25rem;
+    margin-left: 1.25rem;
+}
+
+.container-segundo-anuncio a span {
+    margin-left: 1.9rem;
+}
+
+/* Footer - Rodapé da página */
+
+.rodape-logo {
+    width: 20rem;
+    position: relative;
+    margin: 4.5rem auto 2.5rem;
+}
+
+.rodape-logo img {
+    width: 5rem;
+}
+
+.rodape-logo div {
+    position: absolute;
+    left: 6rem;
+    top: 0rem;
+}
+
+.rodape-logo p {
+    color: #2f86d6;
+    font-weight: 600;
+}
+
+.container-contatos {
+    text-align: center;
+    margin-bottom: 3.125rem;
+    line-height: 2.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.container-copyright {
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-align: center;
+    padding: 1.25rem 0rem;
+    background-color: #f1f3f7;
+}
+
+.container-copyright span {
+    color: #2f86d6;
+}
